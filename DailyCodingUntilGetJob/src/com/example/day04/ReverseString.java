@@ -1,5 +1,14 @@
 package com.example.day04;
 
+/*
+* Day 4
+* Daily Java Coding Until I Find A Job
+* Question = Reverse the given string without using inbuilt
+* reverse or similar method
+* String text = "Coding";
+*/
+
+
 public class ReverseString {
 
 	public static void main(String[] args) {
