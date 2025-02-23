@@ -12,5 +12,16 @@ import java.util.List;
 import java.util.Arrays;
 
 public class App{
+	
+	public static void main(String args[]){
 		
+		List<Integer> numbers = Arrays.asList(3,6,4,5,1,2,7,8,9);
+		
+		numbers.stream()
+			.map(e -> e*e*e)
+			.filter(e -> e > 50)
+			.forEach(System.out::println);
+			
+	}
+	
 }
