@@ -1,3 +1,2 @@
 # DailyJavaCodingUntilFindAJob
-# Mac
 
