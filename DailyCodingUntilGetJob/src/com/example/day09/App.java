@@ -13,10 +13,6 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.Collections;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
 public class App{
 	
 	public static void main(String args[]){
@@ -24,16 +20,9 @@ public class App{
 		List<Integer> numbers = Arrays.asList(1,4,6,7,8,9,4,5,4,2,1,2);
 		
 		numbers.stream()
-<<<<<<< HEAD
 			.filter(e -> Collections.frequency(numbers, e) > 1)
 			.distinct()
 			.forEach(e -> System.out.print(e + " "));
-=======
-			.filter(x -> Collections.frequency(numbers, x) > 1)
-			.distinct()
-			.forEach(r -> System.out.print(r+" "));
->>>>>>> dev
-		
 	}
 	
 }
